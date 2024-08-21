@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nav{
+        
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+        position: sticky;
+        top:0;
+        background-color: aliceblue;
+        
+
+    }
+    .right{
+        display: flex;
+        gap:15px;
+        font-size: larger;
+        
+        
+        
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        padding: 8px;
+        
+    }
+    a:hover{
+        background-color: grey;;
+    }
+    .img1{
+        background-image: url(https://www.w3schools.com/w3images/hamburger.jpg);
+        width:98vw;
+        height:98vh;
+        
+    }
+    .img1>h1{
+       padding-top: 44%;
+       padding-left: 25px;
+    }
+    .flex1, .flex2{
+        display: flex;
+        gap:50px;
+        margin-top: 25px;
+        justify-content: center;
+        font-size: larger;
+        font-family:'Times New Roman', Times, serif;
+        
+
+
+    }
+    .flex2{
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+    }
+     .img2> img, .img3>img{
+       
+        height: 600px;
+    }
+    .content1, .content2{
+        width:500px;
+        height: 600px;
+        
+        
+    }
+
+    input{
+        width: 80%;
+        height: 30px;
+    }
+    .foot{
+        padding: 100px 200px;
+    }
+    button:hover{
+        background-color: grey;
+    }
+
+    .footer{
+        background-color: silver;
+        text-align: center;
+        
+       
+    }
+    .footer>p{
+        padding:35px;
+        
+    }
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h3> <a href="">Gourmet au Catering</a></h3>
+            <div class="right">
+                <a href="">About</a>
+                <a href="">Menu</a>
+                <a href="">Contact</a>
+            </div>
+        </div>
+
+            <div class="img1">
+                <h1>Le Catering</h1>
+            </div>
+
+            <div class="flex1">
+                <div class="img2"><img src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="" ></div>
+                <div class="content1">
+                    <h2>About Catering</h2>
+                    <h5>Tradition since 1889</h5>
+                    <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+            <div class="flex2">
+                <div class="content2"> 
+                   <h1> Our Menu </h1>
+
+                  <h4>Bread Basket </h4>
+                   Assortment of fresh baked fruit breads and muffins 5.50
+
+
+                    <h4>Honey Almond Granola with Fruits </h4>
+                    Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+
+
+                    <h4>Belgian Waffle</h4>
+                    Vanilla flavored batter with malted flour 7.50
+
+
+                    <h4>Scrambled eggs</h4>
+                    Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+
+
+                    <h4>Blueberry Pancakes </h4>
+                    With syrup, butter and lots of berries 8.50
+                </div>
+                <div class="img3">
+                    <img src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="foot">
+                <h1>contact</h1>
+                <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+                <h4>Catering Service, 42nd Living St, 43043 New York, NY</h4>
+                <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
+                </p>
+                <input type="text" placeholder="Name"> <br> <br>
+                <input type="number" placeholder="How many people"> <br><br>
+                <input type="datetime-local" > <br><br>
+                <input type="text" placeholder="Message"> <br><br>
+                <BUTton>Submit Message</BUTton> <br><br>
+            </div>
+
+            <div class="footer">
+                <p>w3schools.css</p>
+            </div>
+        
+    </div>
+    
+</body>
+</html>
